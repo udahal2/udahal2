@@ -56,9 +56,10 @@
     <div class="container">
         <h1>About Me</h1>
         <p>
-            I am Ujjwol, a passionate software engineer with familiarity in AI, Python, Flask framework, AWS, Google Cloud, Web applications development. 
+            I am Ujwol, a passionate software engineer with familiarity in AI, Python, Flask, AWS, Cybersecurity ,Google Cloud, and web development. 
+
             I thrive on solving complex problems and creating innovative solutions, blending technical excellence with a creative mindset.
-       </p>
+        </p>
         <div class="skills">
             <h2>Skills</h2>
             <ul>
@@ -73,7 +74,15 @@
         </div>
         <div id="hitCount">0</div>
     </div>
-
+    <div>Page views: <span id="hitcount"></span></div>
+    <script>
+      fetch('/hitcount.php')
+        .then(response => response.text())
+        .then(data => {
+          document.getElementById('hitcount').innerText = data;
+        });
+    </script>
+    <script src="/backgroundController.js"></script>
     <script>
         function updateDateTime() {
             const now = new Date();
@@ -95,6 +104,7 @@
 
         // Increment the hit count on page load
         incrementHitCount();
+        
     </script>
 </body>
 </html>
