@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Your Website</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/nepali-date@2.1.0/dist/nepali-date.min.js"></script>
 </head>
 <body>
     <div class="container">
@@ -33,19 +34,25 @@
             <span id="datetime"></span>
         </div>
         <div id="hitCount">0</div>
+        <div>H: <span id="hitcount"></span></div>
+        <div id="nepali-date"></div>
     </div>
-    <div>H <span id="hitcount"></span></div>
     <script src="backgroundController.js"></script>
 
     <script>
         function updateDateTime() {
             const now = new Date();
-            const dateTimeString = now.toLocaleString();
-            document.getElementById('datetime').textContent = dateTimeString;
+            const datetimeElement = document.getElementById('datetime');
+            datetimeElement.textContent = now.toLocaleString();
+
+            // Get Nepali date
+            const nepaliDate = new NepaliDate(now);
+            const nepaliDateElement = document.getElementById('nepali-date');
+            nepaliDateElement.textContent = nepaliDate.format('YYYY-MM-DD');
         }
 
         function incrementHitCount() {
-            const hitCountElement = document.getElementById('hitCount');
+            const hitCountElement = document.getElementById('hitcount');
             let hitCount = parseInt(localStorage.getItem('hitCount')) || 0;
             hitCount++;
             localStorage.setItem('hitCount', hitCount);
