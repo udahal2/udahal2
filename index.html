@@ -1,21 +1,75 @@
-<!doctype html>
-<html lang="en-US">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width" />
-    <title>My test page</title>
-  </head>
-  <body>
-    <img src="" alt="Me" />
-    <p>
-      Hi my name is Ujwol Dahal and I am a Computer Science student currently focusing on AI tools development. 
-
-
-      </p>
-
-      <p>
-        You can contact me at :
-          
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            color: #333;
+        }
+        h1 {
+            color: #4CAF50;
+        }
+        .container {
+            text-align: center;
+            max-width: 600px;
+            padding: 20px;
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .skills {
+            margin: 10px 0;
+        }
+        .datetime {
+            margin-top: 20px;
+            font-weight: bold;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>About Me</h1>
+        <p>
+            I am Ujjwol, a passionate software engineer with expertise in Python, Flask, AWS, Google Cloud, and web development. 
+            I thrive on solving complex problems and creating innovative solutions, blending technical excellence with a creative mindset.
         </p>
-  </body>
+        <div class="skills">
+            <h2>Skills</h2>
+            <ul>
+              
+                <li>Python & Flask Development</li>
+                <li>Cloud Platforms: AWS, Google Cloud</li>
+                <li>Web Development: HTML, CSS, JavaScript</li>
+                <li>Data Engineering & APIs</li>
+            </ul>
+        </div>
+        <div class="datetime">
+            Current Date and Time: <span id="datetime"></span>
+        </div>
+    </div>
+
+    <script>
+        function updateDateTime() {
+            const now = new Date();
+            const dateTimeString = now.toLocaleString();
+            document.getElementById('datetime').textContent = dateTimeString;
+        }
+
+        // Update the date and time every second
+        setInterval(updateDateTime, 1000);
+        updateDateTime(); // Initial call to set the date and time immediately
+    </script>
+</body>
 </html>
