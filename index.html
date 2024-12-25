@@ -34,15 +34,9 @@
         </div>
         <div id="hitCount">0</div>
     </div>
-    <div>Page views: <span id="hitcount"></span></div>
+    <div>H <span id="hitcount"></span></div>
     <script src="backgroundController.js"></script>
-    <script>
-      fetch('/hitcount.php')
-        .then(response => response.text())
-        .then(data => {
-          document.getElementById('hitcount').innerText = data;
-        });
-    </script>
+
     <script>
         function updateDateTime() {
             const now = new Date();
