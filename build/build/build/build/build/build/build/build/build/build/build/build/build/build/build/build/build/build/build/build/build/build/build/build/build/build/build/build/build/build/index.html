@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <style>
+        @keyframes changeBackground {
+            0% { background-image: url('https://source.unsplash.com/1920x1080/?astronomy'); }
+            25% { background-image: url('https://source.unsplash.com/1920x1080/?space'); }
+            50% { background-image: url('https://source.unsplash.com/1920x1080/?stars'); }
+            75% { background-image: url('https://source.unsplash.com/1920x1080/?galaxy'); }
+            100% { background-image: url('https://source.unsplash.com/1920x1080/?nebula'); }
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            color: #fff;
+            animation: changeBackground 20s infinite;
+            background-size: cover;
+            background-position: center;
+            transition: background-image 2s ease-in-out;
+        }
+        h1 {
+            color: #4CAF50;
+        }
+        .container {
+            text-align: center;
+            max-width: 600px;
+            padding: 20px;
+            background: rgba(0, 0, 0, 0.6);
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .skills {
+            margin: 10px 0;
+        }
+        .datetime {
+            margin-top: 20px;
+            font-weight: bold;
+            color: #bbb;
+        }
+        #hitCount {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>About Me</h1>
+        <p>
+            I am Ujwol, a passionate software engineer with familiarity in AI, Python, Flask, AWS, Cybersecurity ,Google Cloud, and web development. 
+
+            I thrive on solving complex problems and creating innovative solutions, blending technical excellence with a creative mindset.
+        </p>
+        <div class="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>Python & Flask Development</li>
+                <li>Cloud Platforms: AWS, Google Cloud</li>
+                <li>Web Development: HTML, CSS, JavaScript</li>
+                <li>Data Engineering & APIs</li>
+            </ul>
+        </div>
+        <div class="datetime">
+            Current Date and Time: <span id="datetime"></span>
+        </div>
+        <div id="hitCount">0</div>
+    </div>
+    <div>Page views: <span id="hitcount"></span></div>
+    <script>
+      fetch('/hitcount.php')
+        .then(response => response.text())
+        .then(data => {
+          document.getElementById('hitcount').innerText = data;
+        });
+    </script>
+    <script src="/backgroundController.js"></script>
+    <script>
+        function updateDateTime() {
+            const now = new Date();
+            const dateTimeString = now.toLocaleString();
+            document.getElementById('datetime').textContent = dateTimeString;
+        }
+
+        function incrementHitCount() {
+            const hitCountElement = document.getElementById('hitCount');
+            let hitCount = parseInt(localStorage.getItem('hitCount')) || 0;
+            hitCount++;
+            localStorage.setItem('hitCount', hitCount);
+            hitCountElement.textContent = hitCount;
+        }
+
+        // Update the date and time every second
+        setInterval(updateDateTime, 1000);
+        updateDateTime(); // Initial call to set the date and time immediately
+
+        // Increment the hit count on page load
+        incrementHitCount();
+        
+    </script>
+</body>
+</html>
