@@ -3,70 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Me</title>
-    <style>
-        @keyframes changeBackground {
-            0% { background-image: url('https://source.unsplash.com/1920x1080/?astronomy'); }
-            25% { background-image: url('https://source.unsplash.com/1920x1080/?space'); }
-            50% { background-image: url('https://source.unsplash.com/1920x1080/?stars'); }
-            75% { background-image: url('https://source.unsplash.com/1920x1080/?galaxy'); }
-            100% { background-image: url('https://source.unsplash.com/1920x1080/?nebula'); }
-        }
-
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            height: 100vh;
-            color: #fff;
-            animation: changeBackground 20s infinite;
-            background-size: cover;
-            background-position: center;
-            transition: background-image 2s ease-in-out;
-        }
-        h1 {
-            color: #4CAF50;
-        }
-        .container {
-            text-align: center;
-            max-width: 600px;
-            padding: 20px;
-            background: rgba(0, 0, 0, 0.6);
-            border-radius: 10px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-        }
-        .skills {
-            margin: 10px 0;
-        }
-        .datetime {
-            margin-top: 20px;
-            font-weight: bold;
-            color: #bbb;
-        }
-        #hitCount {
-            display: none;
-        }
-    </style>
+    <title>Your Website</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="container">
         <h1>About Me</h1>
         <p>
-            I am Ujwol, a passionate software engineer with familiarity in AI, Python, Flask, AWS, Cybersecurity ,Google Cloud, and web development. 
+            I am Ujwol, a passionate software engineer with familiarity in AI, Python, Flask, AWS, Cybersecurity ,Google Cloud, and web app development. 
 
             I thrive on solving complex problems and creating innovative solutions, blending technical excellence with a creative mindset.
         </p>
         <div class="skills">
             <h2>Skills</h2>
             <ul>
+              <li>Machine Learning and AI</li>
+              <li>Data Engineering & APIs</li>
                 <li>Python & Flask Development</li>
                 <li>Cloud Platforms: AWS, Google Cloud</li>
                 <li>Web Development: HTML, CSS, JavaScript</li>
-                <li>Data Engineering & APIs</li>
+                <li>Mobile application development.</li>    
+                <li>Linux</li>
+                <li>Cybersecurity</li>
+                <li>DevOps</li>
+                <li>Agile Methodologies</li>
             </ul>
         </div>
         <div class="datetime">
@@ -75,6 +35,7 @@
         <div id="hitCount">0</div>
     </div>
     <div>Page views: <span id="hitcount"></span></div>
+    <script src="backgroundController.js"></script>
     <script>
       fetch('/hitcount.php')
         .then(response => response.text())
@@ -82,7 +43,6 @@
           document.getElementById('hitcount').innerText = data;
         });
     </script>
-    <script src="/backgroundController.js"></script>
     <script>
         function updateDateTime() {
             const now = new Date();
