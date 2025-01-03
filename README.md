@@ -58,9 +58,9 @@
 
 ### 🚀 I'm always open to new ideas and collaborations. Let's build the future of AI together!
 
-### 🎯 GitHub Hit Counter:
+### 🎯 :
 
-![HitCount](http://hits.dwyl.com/udahal2/udahal2.svg)
+![git-hit](http://hits.dwyl.com/udahal2/udahal2.svg)
 
-# 2025-01-04 03:38:10
+# 2025-01-04 04:03:41
 
