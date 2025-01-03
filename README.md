@@ -39,20 +39,20 @@
 
 ### 📈 GitHub Stats:
 
-![Ujwol's GitHub Stats](https://github-readme-stats.vercel.app/api?username=ujwol&show_icons=true&count_private=true&hide=prs&theme=radical)
+![Ujwol's GitHub Stats](https://github-readme-stats.vercel.app/api?username=udahal2&show_icons=true&count_private=true&hide=prs&theme=radical)
 
 ### 🏆 GitHub Achievements:
 
-![Ujwol's Achievements](https://github-profile-trophy.vercel.app/?username=ujwol&theme=dark)
+![Ujwol's Achievements](https://github-profile-trophy.vercel.app/?username=udahal2&theme=dark)
 
 ### 🌱 Latest Blog Posts:
 - [Exploring Python for Machine Learning](https://www.ujwol.com/blog/python-ml)
 - [Understanding Neural Networks and Deep Learning](https://www.ujwol.com/blog/nn-deep-learning)
 
 ### 🔥 My Top Repositories:
-- [AI Model Trainer](https://github.com/ujwol/ai-model-trainer): A framework to train and evaluate machine learning models with minimal code.
-- [NLP Text Classifier](https://github.com/ujwol/nlp-text-classifier): A project to classify text using advanced NLP techniques.
-- [Reinforcement Learning Agent](https://github.com/ujwol/reinforcement-learning-agent): A custom agent for reinforcement learning environments.
+- [AI Model Trainer](https://github.com/udahal2/ai-model-trainer): A framework to train and evaluate machine learning models with minimal code.
+- [NLP Text Classifier](https://github.com/udahal2/nlp-text-classifier): A project to classify text using advanced NLP techniques.
+- [Reinforcement Learning Agent](https://github.com/udahal2/reinforcement-learning-agent): A custom agent for reinforcement learning environments.
 
 ---
 
