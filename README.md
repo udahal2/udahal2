@@ -1,3 +1,4 @@
+
 # Hi, I'm Ujwol 👋
 
 ### 🐍 A Pythonic Developer with a passion for AI and Machine Learning! 🚀
@@ -24,16 +25,15 @@
 - Python-based automation tools
 - Building intelligent systems with real-world applications
 
-💬 Ask me about:
+💬 Tell me about:
 - AI, ML, and Data Science
 - Python best practices and libraries
 - Solving complex problems with efficient algorithms
 - Tips for improving coding productivity
 
 📫 How to reach me:
-- [LinkedIn](https://www.linkedin.com/in/ujwol)
-- [Twitter](https://twitter.com/ujwol_)
-- [Email](mailto:ujwol@example.com)
+- [Instagram](https://www.instagram.com/ujwol_108/)
+- [Email](mailto:dujwol9984@gmail.com)
 
 ---
 
@@ -45,7 +45,7 @@
 
 ![Ujwol's Achievements](https://github-profile-trophy.vercel.app/?username=udahal2&theme=dark)
 
-### 🌱 Latest Blog Posts:
+### 🌱 Latest Blog Posts (in construction):
 - [Exploring Python for Machine Learning](https://www.ujwol.com/blog/python-ml)
 - [Understanding Neural Networks and Deep Learning](https://www.ujwol.com/blog/nn-deep-learning)
 
@@ -58,3 +58,8 @@
 
 ### 🚀 I'm always open to new ideas and collaborations. Let's build the future of AI together!
 
+### 🎯 GitHub Hit Counter:
+
+![HitCount](http://hits.dwyl.com/udahal2/udahal2.svg)
+
+# 2025-01-04 03:38:10
