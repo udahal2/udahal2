@@ -1,10 +1,12 @@
 
-# Hi, I'm Ujwol 👋
+# Hi, I'm Ujwol. Thanks for your visit here. 👋
 
-### 🐍 A Pythonic Developer with a passion for AI and Machine Learning! 🚀
+# I am a computer science student and a researcher. 💻📚
+
+### 🐍 Also a Pythonic Developer with a passion for AI and Machine Learning and also some more! 🚀
 
 🔭 I’m currently working on:
-- Building AI models with Python (TensorFlow, PyTorch)
+- Building AI models with Python (TensorFlow, PyTorch, LLMs)
 - Exploring deep learning and reinforcement learning techniques
 - Contributing to AI research projects
 
@@ -46,8 +48,8 @@
 ![Ujwol's Achievements](https://github-profile-trophy.vercel.app/?username=udahal2&theme=dark)
 
 ### 🌱 Latest Blog Posts (in construction):
-- [Exploring Python for Machine Learning](https://www.ujwol.com/blog/python-ml)
-- [Understanding Neural Networks and Deep Learning](https://www.ujwol.com/blog/nn-deep-learning)
+- [Exploring Python for Machine Learning]('')
+- [Understanding Neural Networks and Deep Learning]('')
 
 ### 🔥 My Top Repositories:
 - [AI Model Trainer](https://github.com/udahal2/ai-model-trainer): A framework to train and evaluate machine learning models with minimal code.
@@ -62,5 +64,5 @@
 
 ![git-hit](http://hits.dwyl.com/udahal2/udahal2.svg)
 
-# 2025-01-04 04:03:41
+# 2025-01-04 04:09:36
 
