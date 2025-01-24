@@ -66,9 +66,9 @@ I have a academic background with BE in electronics and Masters in Computer Scie
 ---
 
 ### 🚀 I'm always open to new ideas and collaborations. Let's build the future of AI together!
+![size](https://img.shields.io/github/repo-size/udahal2/udahal2)
 
 ### 🎯 :
-
 ![git-hit](http://hits.dwyl.com/udahal2/udahal2.svg)
 
 ### 🎸 Acoustic Fingerstyle Guitar Enthusiast🔥:
