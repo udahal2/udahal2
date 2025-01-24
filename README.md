@@ -1,7 +1,7 @@
 
 # Hi, I'm Ujwol. Thanks for your visit here. 👋
 
-# I am a computer science student and a researcher. 💻📚
+# I am a computer science student, general programmer and a researcher. 💻📚
 
 ### 🐍 Also a Pythonic Developer with a passion for AI and Machine Learning and also some more! 🚀
 
@@ -19,6 +19,7 @@
 - Algorithms and Data Structures
 
 🌱 I’m currently learning:
+- Automation Projects for custom usecases.
 - Reinforcement Learning
 - AI Ethics and explainability
 
@@ -36,7 +37,7 @@
 📫 How to reach me:
 - [Instagram](https://www.instagram.com/ujwol_108/)
 - [Email](mailto:dujwol9984@gmail.com)
-- [LinkedIn](https://www.linkedin.com/in/ujwoldahal)
+
 ---
 
 ### 📈 GitHub Stats:
@@ -70,5 +71,5 @@ Playing the acoustic fingerstyle guitar has been a thrilling adventure for me. I
 ### 🎯 Fun Fact:
 I love exploring new technologies and applying them to solve real-world problems. When I'm not coding, you will most probably find me playing the guitar or watching someone play it or just listen to it.
 
-2025-01-05 01:15:12
+2025-01-25 02:23:12
 
