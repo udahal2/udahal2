@@ -69,7 +69,8 @@ I have a academic background with BE in electronics and Masters in Computer Scie
 ![size](https://img.shields.io/github/repo-size/udahal2/udahal2)
 
 ### 🎯 :
-![git-hit](http://hits.dwyl.com/udahal2/udahal2.svg)
+![g](https://hits.dwyl.com/udahal2/udahal2.svg)
+
 
 ### 🎸 Acoustic Fingerstyle Guitar Enthusiast🔥:
 Playing the acoustic fingerstyle guitar has been a thrilling adventure for me. It brings me immense pleasure and peace, a hobby I never imagined loving so much while growing up. Strumming the strings and exploring new melodies has become a beautiful part of my life. I am not that fluent in this yet but seems like this one is going to last long. Though it is not so convinient to have long nails and and a somehow rusty left fingertips; the rewards with muscle memory and neurological balance are really awesome. Ping me if you are interested in this one too. 
