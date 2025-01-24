@@ -54,7 +54,8 @@ I have a academic background with BE in electronics and Masters in Computer Scie
 
 ![Ujwol's Achievements](https://github-profile-trophy.vercel.app/?username=udahal2&theme=dark)
 
-### 🌱 Latest Blog Posts (in construction):
+### 🌱 Latest Blog Posts (Technical posts are in construction ...):
+- [Biography collections]('https://udahal2.github.io/biographies-for-life-analysis-jekyll/')
 - [Exploring Python for Machine Learning]('')
 - [Understanding Neural Networks and Deep Learning]('')
 
