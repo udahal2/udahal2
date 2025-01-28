@@ -2,3 +2,6 @@ future_contents
 build.ps1
 static/js
 *environment*
+*.py
+*.log
+*.md
