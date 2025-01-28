@@ -24,7 +24,7 @@
 
         /* Background Image */
         body {
-            background-image: url('static/images/background.jpg');
+            background-image: url('assets/images/background.jpg'); /* Ensure the image is in the correct directory */
             background-size: cover;
             background-position: center;
         }
@@ -113,53 +113,24 @@
             });
         }
 
-        // Function to fetch the Nepali date & time.
-        async function showNepaliDateAndTime() {
-            const dateTimeBox = document.getElementById('date-time-box');
-            try {
-                // Sending request to the server:
-                const response = await fetch('http://localhost.com:/api/getNepaliDateTime', { method: 'GET' });
-                if (response.ok) {
-                    const data = await response.json();
-                    dateTimeBox.innerText = data.dateTime; // Display Nepali date and time from the server
-                } else {
-                    // If the server doesn't provide data, fallback to English date and time
-                    fallbackToEnglishDateAndTime();
-                }
-            } catch (error) {
-                console.error('Backend server not available:', error);
-                fallbackToEnglishDateAndTime(); // Fallback if the backend server is unreachable
-            }
-        }
-
-        // Fallback function to show English date & time if the backend is not available
-        function fallbackToEnglishDateAndTime() {
+        // Function to show the current date & time (fallback for Nepali date-time)
+        function showCurrentDateAndTime() {
             const dateTimeBox = document.getElementById('date-time-box');
             const currentDateTime = new Date();
             dateTimeBox.innerText = currentDateTime.toLocaleString(); // Show English date and time
         }
 
         // Function to check the backend server status and log data
-        async function checkBackendServer() {
+        function checkBackendServer() {
             const footer = document.getElementById('footer-status');
-            try {
-                // Send a POST request to your backend for logging (or any other desired action)
-                const response = await fetch('http://your-backend-server-url/api/log', { method: 'POST' });
-                if (response.ok) {
-                    footer.innerHTML = 'Server is running and logs have been updated.'; // Server is up and logs are updated
-                } else {
-                    footer.innerHTML = 'Server is available but there was an issue with logging.'; // Server is available but issue with logging
-                }
-            } catch (error) {
-                footer.innerHTML = '© 2025 Ujwol Dahal'; // If the server is down, display the copyright message
-            }
+            footer.innerHTML = '© 2025 Ujwol Dahal'; // Static footer message for GitHub Pages
         }
 
         // Call functions on window load to apply colors, check server, and show date & time
         window.onload = function () {
             applyRandomColors(); // Apply random colors to title and headers
-            showNepaliDateAndTime(); // Show Nepali date & time (with fallback)
-            checkBackendServer(); // Check backend server status
+            showCurrentDateAndTime(); // Show current date & time (fallback)
+            checkBackendServer(); // Static footer for GitHub Pages
         };
     </script>
 </head>
