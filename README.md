@@ -96,9 +96,9 @@ I love exploring new technologies and applying them to solve real-world problems
 
 ---
 ---
+<!-- hitwebcounter Code START -->
 <a href="https://www.hitwebcounter.com" target="_blank">
-  <img src="https://hitwebcounter.com/counter/counter.php?page=udahal2&style=0003&nbdigits=5&type=page&initCount=0" title="page hit counter" Alt="page hit counter" border="0" >
-</a>
+<img src="https://hitwebcounter.com/counter/counter.php?page=19047812&style=0001&nbdigits=5&type=page&initCount=0" title="Counter Widget" Alt="Visit counter For Websites"   border="0" /></a>     
 ---
 ---
 
