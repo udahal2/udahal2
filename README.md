@@ -75,7 +75,7 @@ This repository contains a custom reinforcement learning agent designed to opera
 ---
 
 ### 🌱 Latest Blog Posts (Technical content in the works):
-- [Biography Collections: A Life Analysis Approach](https://udahal2.github.io/biographies-for-life-analysis-jekyll/)
+- [Biographies](https://udahal2.github.io/biographies-for-life-analysis-jekyll/)
 - [Exploring Python for Machine Learning](#) *(Coming soon!)*
 - [Understanding Neural Networks and Deep Learning](#) *(Coming soon!)*
 
